@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Android Developer | Shahnawaz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- UPDATED HEADER WITH PROFILE -->
+    <header class="main-header">
+        <div class="header-container">
+
+            <a href="index.html" class="back-home-btn">←</a>
+
+            <!-- Profile Section - Left Side -->
+            <div class="profile-section">
+                <img src="images/profile1.jpg" alt="Shahnawaz Profile" class="profile-img">
+                <span class="profile-name">Mohammad Shahnawaz Khan</span>
+            </div>
+            
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+                <a href="#home" class="nav-link home-link">Home</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#internships" class="nav-link">Internships / Training</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#cocurricular" class="nav-link">Co-curricular</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =========================
+         HERO SECTION (ANDROID)
+    ========================= -->
+    <section class="hero-android" id="home">
+        <div class="hero-container">
+            <!-- LEFT CONTENT -->
+            <div class="hero-text">
+                <h1 class="hero-title">Android Developer</h1>
+                <p class="typing-text">
+                    <span id="typed-text"></span>
+                </p>
+                <p class="hero-description">
+                    I specialize in building scalable, user-focused Android applications using
+                    modern technologies, clean architecture, and real-world problem solving.
+                </p>
+                <a href="images/resume.pdf" target="_blank" class="hero-btn">
+                    Download Resume
+                </a>
+            </div>
+
+            <!-- RIGHT MEDIA (IMAGE → VIDEO LATER) -->
+            <div class="hero-media">
+                <!-- IMAGE FOR NOW -->
+                <img src="images/profile1.jpg" alt="Shahnawaz Profile">
+                <!-- 
+                🔴 FUTURE (VIDEO REPLACEMENT)
+                <video src="images/intro.mp4" autoplay muted loop></video>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <div class="page">
+        <div class="container android-page">
+            <!-- Top Back Button -->
+            <div class="top-bar">
+                <a href="index.html" class="back-btn">← Back</a>
+            </div>
+            
+            <!-- Skills -->
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <!-- Programming & Development Skills -->
+                <h3 class="skill-group-title">Programming & Development</h3>
+                <div class="skill-cards">
+                    <div class="skill-card" data-skill="kotlin">
+                        <img src="images/skills/kotlin.png" alt="Kotlin">
+                        <span>Kotlin</span>
+                    </div>
+
+                    <div class="skill-card" data-skill="flutter">
+                        <img src="images/skills/flutter.png" alt="Flutter">
+                        <span>Flutter</span>
+                    </div>
+
+                    <div class="skill-card" data-skill="java">
+                        <img src="images/skills/java.png" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-card" data-skill="cpp">
+                        <img src="images/skills/cpp.png" alt="C++">
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-card" data-skill="c">
+                        <img src="images/skills/letter-c.png" alt="C">
+                        <span>C</span>
+                    </div>
+                    <div class="skill-card" data-skill="python">
+                        <img src="images/skills/python.png" alt="Python">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card" data-skill="css">
+                        <img src="images/skills/css.png" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-card" data-skill="javascript">
+                        <img src="images/skills/js.png" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card" data-skill="html">
+                        <img src="images/skills/html.png" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card" data-skill="xml">
+                        <img src="images/skills/xml.png" alt="XML">
+                        <span>XML</span>
+                    </div>
+                    <div class="skill-card" data-skill="mysql">
+                        <img src="images/skills/mysql.png" alt="MySQL">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-card" data-skill="nodejs">
+                        <img src="images/skills/nodejs.png" alt="Node.js">
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-card" data-skill="react">
+                        <img src="images/skills/react.png" alt="React">
+                        <span>React</span>
+                    </div>
+                </div>
+
+                <!-- Other Skills & Tools -->
+                <h3 class="skill-group-title">Other Skills & Tools</h3>
+                <div class="skill-cards">
+                    <div class="skill-card" data-skill="figma">
+                        <img src="images/skills/figma.png" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                    <div class="skill-card" data-skill="premiere">
+                        <img src="images/skills/premiere-pro.png" alt="Premiere Pro">
+                        <span>Premiere Pro</span>
+                    </div>
+                    <div class="skill-card" data-skill="canva">
+                        <img src="images/skills/canva.png" alt="Canva">
+                        <span>Canva</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="project-card-large">
+                    <!-- Project Header -->
+                    <div class="project-header">
+                        <img src="images/projects/kabuto/icon.png" alt="Kabuto App Icon" class="project-icon">
+                        <h3 class="project-title">Kabuto Esports App</h3>
+                    </div>
+
+                    <!-- Project Description -->
+                    <p class="project-description">
+                        Kabuto is a competitive esports platform designed for hosting tournaments,
+                        managing scrims, and building gaming communities with real-time updates.
+                    </p>
+
+                    <!-- Project Screens (Videos) -->
+                    <div class="project-screens">
+                        <video src="images/projects/kabuto/loginpage.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/kabuto/signuppage.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/kabuto/homepage.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/kabuto/tournamnetpage.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/kabuto/walletpage.mp4" autoplay loop muted playsinline></video>
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="project-links">
+                        <a href="https://github.com/shahnawazofficial/kabuto-esports-app" target="_blank" class="project-link">
+                            GitHub Repository
+                        </a>
+                        <span class="project-link coming-soon">
+                            App Download (Coming Soon)
+                        </span>
+                    </div>
+
+                    <!-- Tech Used -->
+                    <div class="project-tech">
+                        <span>Tech Used:</span>
+                        <div class="tech-icons">
+                            <img src="images/skills/kotlin.png" alt="Kotlin">
+                            <img src="images/skills/xml.png" alt="XML">
+                            <img src="images/skills/firebase.png" alt="Firebase">
+                            <img src="images/skills/nodejs.png" alt="NodeJS">
+                            <img src="images/skills/mysql.png" alt="MySQL">
+                            <img src="images/skills/github.png" alt="GitHub">
+                            <img src="images/skills/html.png" alt="HTML">
+                            <img src="images/skills/css.png" alt="CSS">
+                            <img src="images/skills/js.png" alt="JavaScript">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Legal Saathi Project -->
+                <div class="project-card-large">
+                    <!-- Project Header -->
+                    <div class="project-header">
+                        <img src="images/projects/legal-saathi/legal-sathi.png" alt="Legal Saathi App Icon" class="project-icon">
+                        <h3 class="project-title">Legal Saathi</h3>
+                    </div>
+
+                    <!-- Project Description -->
+                    <p class="project-description">
+                        Legal Saathi is an AI-powered legal assistance Android application that helps users
+                        get instant legal guidance, emergency support, and smart query handling using Gemini AI.
+                    </p>
+
+                    <!-- Project Screens (Videos) -->
+                    <div class="project-screens">
+                        <video src="images/projects/legal-saathi/Intro.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/legal-saathi/WELCOME.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/legal-saathi/Login Page.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/legal-saathi/Sign Up.mp4" autoplay loop muted playsinline></video>
+                        <video src="images/projects/legal-saathi/SOS.mp4" autoplay loop muted playsinline></video>
+                    </div>
+
+                    <!-- Project Links -->
+                    <div class="project-links">
+                        <a href="https://github.com/shahnawazofficial/Legal-saathi" target="_blank" class="project-link">
+                            GitHub Repository
+                        </a>
+                        <span class="project-link coming-soon">
+                            App Download (Coming Soon)
+                        </span>
+                    </div>
+
+                    <!-- Tech Used -->
+                    <div class="project-tech">
+                        <span>Tech Used:</span>
+                        <div class="tech-icons">
+                            <img src="images/skills/kotlin.png" alt="Kotlin">
+                            <img src="images/skills/xml.png" alt="XML">
+                            <img src="images/skills/firebase.png" alt="Firebase">
+                            <img src="images/skills/gemini.png" alt="Gemini API">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========================
+                 CERTIFICATIONS
+            ========================= -->
+            <section class="certifications" id="certifications">
+                <h2 class="section-title">Certifications</h2>
+
+                <!-- ANDROID CERTIFICATIONS -->
+                <h3 class="skill-group-title">Android Certifications</h3>
+                <div class="certification-cards">
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Get Started with Android App Development</h4>
+                        <a href="certificates/android/Get Started with Android App Development.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Introduction to Mobile App Development</h4>
+                        <a href="certificates/android/Introduction to Mobile App Development.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Application Development using Microservices</h4>
+                        <a href="certificates/android/Application Development using Microservices.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BACKEND CERTIFICATIONS -->
+                <h3 class="skill-group-title">Backend Certifications</h3>
+                <div class="certification-cards">
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Developing Back-End Apps with Node.js & Express</h4>
+                        <a href="certificates/backend/Developing Back-End Apps with Node.js and Express.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Django Application Development with SQL & Databases</h4>
+                        <a href="certificates/backend/Django Application Development with SQL and Databases.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Getting Started with Git and GitHub</h4>
+                        <a href="certificates/backend/Getting Started with Git and GitHub.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Introduction to Containers, Docker & Kubernetes</h4>
+                        <a href="certificates/backend/Introduction to Containers, Docker Kubernetes.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- FRONTEND CERTIFICATIONS -->
+                <h3 class="skill-group-title">Frontend Certifications</h3>
+                <div class="certification-cards">
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Introduction to HTML, CSS & JavaScript</h4>
+                        <a href="certificates/frontend/Introduction to HTML, CSS, & JavaScript.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Developing Front-End Apps with React</h4>
+                        <a href="certificates/frontend/Developing Front-End Apps with React.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- GENERATIVE AI / PROMPT ENGINEERING -->
+                <h3 class="skill-group-title">Generative AI & Prompt Engineering</h3>
+                <div class="certification-cards">
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>ChatGPT for Beginners</h4>
+                        <a href="certificates/Generative-AI/ChatGPT for Beginners.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Prompt Engineering for ChatGPT</h4>
+                        <a href="certificates/Generative-AI/Prompt Engineering for ChatGPT.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">📄</div>
+                        <h4>Generative AI with Large Language Models</h4>
+                        <a href="certificates/Generative-AI/Generative AI with Large Language Models.pdf" target="_blank" download class="cert-btn">
+                            Download Certificate
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========================
+                 CO-CURRICULAR ACTIVITIES
+            ========================= -->
+            <section class="co-curricular" id="cocurricular">
+                <h2 class="section-title">Co-Curricular Activities</h2>
+
+                <!-- AI & Industry Exposure -->
+                <h3 class="skill-group-title">AI & Industry Exposure</h3>
+                <div class="cocurricular-cards featured">
+                    <div class="cocurricular-card">
+                        <h4>AI Training & Evaluation — Outlier AI</h4>
+                        <p>
+                            Worked on training and evaluating AI models, gaining hands-on experience with
+                            Large Language Models (LLMs), prompt structuring, response evaluation, and
+                            understanding model training methodologies.
+                        </p>
+                    </div>
+                    <div class="cocurricular-card">
+                        <h4>AI Model Training — Dreamliner AI</h4>
+                        <p>
+                            Collaborated on AI model training tasks involving AWS infrastructure and Jira-based
+                            workflows. Gained exposure to real-world AI pipelines, task tracking, and cloud-based
+                            model training processes.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Leadership & Events -->
+                <h3 class="skill-group-title">Leadership & Events</h3>
+                <div class="cocurricular-cards">
+                    <div class="cocurricular-card">
+                        <h4>Organizer — KOC Esports Event</h4>
+                        <p>
+                            Organized and managed the KOC Esports tournament, leading event planning,
+                            team coordination, strategic decision-making, promotions, and community engagement.
+                            Demonstrated leadership, marketing, and operational skills.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Workshops & Symposiums -->
+                <h3 class="skill-group-title">Workshops & Symposiums</h3>
+                <div class="cocurricular-cards">
+                    <div class="cocurricular-card">
+                        <h4>Symposium 2.0 — Lovely Professional University</h4>
+                        <p>
+                            Attended Symposium 2.0 at LPU and actively participated in cybersecurity workshops,
+                            gaining insights into security concepts, tools, and current industry practices.
+                        </p>
+                    </div>
+                    <div class="cocurricular-card">
+                        <h4>WOW Google Workshop — LPU</h4>
+                        <p>
+                            Participated in the WOW Google workshop at LPU, exploring Google technologies,
+                            developer tools, and best practices for modern application development.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========================
+                 ACHIEVEMENTS
+            ========================= -->
+            <section class="achievements" id="achievements">
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="achievement-cards">
+                    <div class="achievement-card">
+                        <h4>Revenue Milestone — Outlier AI</h4>
+                        <p>
+                            Generated over <strong>₹50,000+ revenue in a single month</strong> through AI-related
+                            work at Outlier AI, demonstrating consistency, skill efficiency, and real-world
+                            earning capability in the AI domain.
+                        </p>
+                    </div>
+                    <div class="achievement-card">
+                        <h4>Leadership & Event Hosting — KOC Esports</h4>
+                        <p>
+                            Managed social media operations, hosted live esports events, coordinated teams,
+                            and streamed as a caster on YouTube during the KOC Esports tournament.
+                            Successfully handled both on-ground and digital responsibilities.
+                        </p>
+                    </div>
+                    <div class="achievement-card">
+                        <h4>Website Deployment & Hosting</h4>
+                        <p>
+                            Designed and deployed a live website <strong>kabutoesports.com</strong> using WordPress
+                            and hosted it on Hostinger for tournament registrations, handling user onboarding
+                            and event participation workflows.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========================
+                 CONTACT
+            ========================= -->
+            <section class="contact-modern" id="contact">
+                <h2 class="section-title">Contact Me</h2>
+
+                <div class="contact-wrapper">
+                    <!-- LEFT: DIRECT MESSAGE -->
+                    <div class="contact-form-box">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm">
+                            <input 
+                                type="email" 
+                                id="senderEmail"
+                                placeholder="Your Email" 
+                                required
+                            >
+                            <input 
+                                type="text" 
+                                id="subject"
+                                placeholder="Subject" 
+                                required
+                            >
+                            <textarea 
+                                id="message"
+                                rows="5" 
+                                placeholder="Write your message here..." 
+                                required
+                            ></textarea>
+                            <button type="submit">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- RIGHT: CONNECT WITH ME -->
+                    <div class="contact-connect-box">
+                        <h3>Connect With Me</h3>
+                        <div class="contact-icons">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=khanshahnawazmoh@gmail.com" target="_blank">
+                                <img src="images/contact/gmail.png" alt="Gmail">
+                            </a>
+                            <a href="https://www.linkedin.com/in/shahnawazkhan27/" target="_blank">
+                                <img src="images/contact/linkedin.png" alt="LinkedIn">
+                            </a>
+                            <a href="https://github.com/shahnawazofficial" target="_blank">
+                                <img src="images/contact/github.png" alt="GitHub">
+                            </a>
+                            <a href="https://maps.app.goo.gl/dKo9eFSyp8UhFhao6" target="_blank">
+                                <img src="images/contact/location.png" alt="Location">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="js/android.js"></script>
+
+    <!-- Contact Form Handler -->
+    <script>
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        const email = document.getElementById("senderEmail").value.trim();
+        const subject = document.getElementById("subject").value.trim();
+        const message = document.getElementById("message").value.trim();
+
+        // Basic validation
+        if (!email || !subject || !message) {
+            alert("Please fill in all fields.");
+            return;
+        }
+
+        if (!email.includes("@")) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        const gmailURL = 
+            "https://mail.google.com/mail/?view=cm&fs=1" +
+            "&to=khanshahnawazmoh@gmail.com" +
+            "&su=" + encodeURIComponent(subject) +
+            "&body=" + encodeURIComponent(
+                "From: " + email + "\n\n" + message
+            );
+
+        window.open(gmailURL, "_blank");
+        
+        // Optional: Reset form after opening
+        document.getElementById("contactForm").reset();
+    });
+    </script>
+
+    <script>
+    const text = "Hi, I'm Mohammad Shahnawaz Khan. I am an Android Developer, and I welcome you to my portfolio.";
+    let index = 0;
+
+    function typeText() {
+        if (index < text.length) {
+            document.getElementById("typed-text").textContent += text.charAt(index);
+            index++;
+            setTimeout(typeText, 45);
+        }
+    }
+
+    window.addEventListener("load", typeText);
+    </script>
+
+</body>
+</html>
